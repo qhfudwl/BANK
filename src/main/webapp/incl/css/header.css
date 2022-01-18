@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#header {
+	display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+	height: 30px; padding: 5px;
+	}
+#logo { font-family: 'SBAggroB'; color: #000; text-shadow: -2px -2px 1px #7AB53F; font-size: 1.2em; }
+#logSnb li { float: left; margin-right: 20px; }
+#logSnb li a { font-size: 0.8em; }
+#logSnb li a:hover { color: #b50000; text-decoration: underline; }
+#userId {color: #b50000;}
+#logoutForm input {
+	font-size: 0.8em; outline: none; border: 0; background-color: #fff;
+	font-family: 'twayair'; cursor: pointer; color: #b50000;
+}
+#logoutForm input:hover { color: #7AB53F; }

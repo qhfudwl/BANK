@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#addCutomerFormWrap {width: 100%; margin:0 auto; padding: 30px; box-sizing:border-box;
+		min-width: 550px; max-width: 900px;}
+input, select {box-sizing : border-box;}
+#h2Wrap{width:450px; margin-left:20%;}
+#capSub{margin:0 auto; font-size: 3em; color:  #7F7F7F; font-weight: normal; position: relative;}
+#capSub input{ outline: none; width:80px; height:40px; border: 0px; border-radius: 10px; color: #7AB53F;
+ font-size: 20px; text-align:center; line-height:40px; position:absolute; cursor: pointer; background-color: #fff;}
+#capSub input:hover {color:  #b50000;}
+/**/
+td #userId{color:#000;}
+#addCustomerTable {width : 60%; margin : 0 auto;}
+#addCustomerTable th, td { height: 50px; }
+#addCustomerTable th { width: 20%; text-align: left;}
+#addCustomerTable td { text-indent : 10px; width : 30%; position : relative;}
+#ssn1{width: 45%; margin: 0;}
+#ssn2{width: 45%; margin: 0;}
+#phone1{width: 26%; margin: 0;}
+#phone2{width: 27%; margin: 0;}
+#phone3{width: 27%; margin: 0;}
+#email1{width:65%; margin: 0;}
+td input[type=text], td input[type=password] {
+	outline: none; border: 0px; height: 50px; width: 100%; text-indent: 5px; border-bottom: 1px solid #7F7F7F;
+	box-sizing: border-box;
+}
+td select {
+	outline: none; background: none; border: 0px; width: 100px; height: 36px; padding: 2px 0;
+}
+#joinWrap {
+	padding-top: 60px; width: 100%;
+	position: relative;
+}
+#join {
+	background-color: #7F7F7F; outline: none; border: 0px; border-radius: 10px; color: #fff;
+	padding: 10px 30px; font-size: 1em; position: absolute; bottom: 0; right: 0;
+	cursor: pointer;
+}
+#join:hover {background-color: #7AB53F;}
+#cansle{background-color: #7F7F7F; outline: none; border: 0px; border-radius: 10px; color: #fff;
+	padding: 10px 30px; font-size: 1em; position: absolute; bottom: 0; right: 110px;
+	cursor: pointer;}
+#cansle:hover {background-color: #b50000;}
+
+#passwd , #passwdcheck{font-family: "sans-serif";}
+
+input[type="password"]::placeholder{
+  font-family: 'twayair';}
+  
+.idcheckBtn {
+	position: absolute; top: 10px; bottom: 0; right: 0; margin: auto 0px; height: 30px; 
+	font-size: 1em; cursor: pointer; outline: none; border: 0px; background-color: #fff; }
+	
+.idcheckBtn:hover{color: #7AB53F;}
+
+#passwdShow2:hover{color: #7AB53F;}
+
+#passwdShow:hover{color: #7AB53F;}
+
+#passwdShow2 , #passwdShow{
+  position: absolute; top: 10px; bottom: 0; right: 0; margin: auto 0px; height: 30px; font-size: 1em; cursor: pointer; }

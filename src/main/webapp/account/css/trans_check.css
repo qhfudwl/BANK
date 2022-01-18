@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#transCheckWrap {
+	width: 70%; padding: 40px 40px 20px; margin: 0 auto; min-width: 500px; max-width: 700px;
+	border: 2px solid #7AB53F; text-align: right;
+}
+#transCheckWrap > p {font-size: 1.2em; text-align: center;}
+#transCheckWrap > p:nth-child(1) {margin-bottom: 30px;}
+#transCheckWrap > p:nth-child(2) {line-height: 30px; margin-bottom: 40px;}
+#transCheckWrap > p em {font-size: 1.4em;}
+/*table*/
+#transCheckTableWrap { border: 1px solid #eee; border-left: 0; border-right: 0; padding: 20px 10px; }
+#transCheckTableWrap table {width: 100%;  color: #808080;}
+#transCheckTableWrap td { padding: 20px 0; text-align: right; }
+#transCheckTableWrap th {text-align: left;}
+#transCheckWrap form button {
+	margin-top: 40px; background-color: #eee; text-align: center; outline:none; border: 0;
+	display: inline-block; width: 100px; height: 40px; line-height: 40px; font-size: 1.2em;
+	cursor: pointer;
+}
+#transCheckWrap form button:hover {background-color: #7AB53F;}

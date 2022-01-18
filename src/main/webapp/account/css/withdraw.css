@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* 입금 section */
+#withdrawContent {
+	width: 100%; padding: 50px; box-sizing: border-box;
+	min-width: 600px;	
+}
+#withdrawContent h2 { font-size: 6em; opacity: 0.1; } 
+
+/*입금 wrap div */
+#withdrawWrap {
+	width: 55%;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+	min-width: 500px; max-width: 800px;
+}
+
+/* 입금 table */
+#withdrawTable {width: 100%;}
+
+#withdrawTable th, td{height: 70px; }
+#withdrawTable th{ width: 20%; text-align: left; text-indent: 10px;}
+#withdrawTable td{ 	width:70%; position:relative; right: 30px;text-align:right;}
+/* 계좌 번호를 em으로 할까. 일단 테스트해보고.
+#depoisitTable td em { font-size: 1.2em; font-weight: bold; color: #7AB53F; }
+*/
+#withdrawTable > .inputRow th, td { height: 90px;}
+#withdrawTable input {
+	height: 70px; width: 90%; font-size: 1em; color: #000; 
+	outline: none; border: 0; background-color: #fff; border-bottom: 1px solid #000;
+	box-sizing: border-box; text-align:right; padding-right: 10px;	
+}
+#withdrawTable input::placeholder {color: #8a8a8a;}
+#withdrawTable input:focus {border-bottom: 2px solid #7AB53F;}
+
+#withdrawTable .submitArea { text-align: right; }
+#withdrawButton {
+	text-align: center;
+	width: 150px; height: 40px; outline: none; border: 0;
+	background-color: #000; color: #fff;
+	font-size: 1.4em;
+}
+#withdrawButton:hover { background-color: #7AB53F; }
+
+#withdrawTable .inputArea .errMsg { 
+	color: #b50000; font-size: 0.8em; padding: 3px 0;
+	position: absolute; top: 5px; left: 33px;
+}
+ 
+
+

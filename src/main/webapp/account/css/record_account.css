@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 거래 내역 section */
+#recordContent > div { width: 70%; padding: 20px; margin: 0 auto; }
+/* 거래 계좌 */
+#recordAcc { border-bottom: 2px solid #7AB53F; }
+/* 계좌 정보 */
+#recordAcc .accInfo dt {font-size: 2em;}
+#recordAcc .accInfo dd {font-size: 1.5em; padding: 10px;}
+#recordAcc .accInfo .balance {text-align: right;}
+/* 입금 / 출금 / 이체 */
+#recordAcc .formWrap {width: 100%; display: flex; flex-flow: row nowrap; justify-content: space-between;}
+#recordAcc .formWrap form {width: 23%;}
+#recordAcc .formWrap button {
+	height: 50px; outline: none; border: 0; background-color: #eee;
+	width: 100%; font-size: 1.2em;
+}
+#recordAcc .formWrap button:hover {background-color: #bcdd9b;}
+#recordAcc .formWrap button.deleteAcc {background-color: #4f4f4f; color: #fff;}
+#recordAcc .formWrap button.deleteAcc:hover {background-color: #8c0000;}
+/* 목록 */
+#recordContent #recordWrap { padding: 0 20px 20px; }
+#recordTable { width: 100%; }
+#recordTable td { padding: 5px 0; height: 70px; border-bottom: 1px solid #eee; }
+/* 내용 */
+#recordTable .content time { font-size: 0.8em; }
+#recordTable .content p { padding-top: 10px; font-size: 1.2em; }
+/* 분류 / 잔액 */
+#recordTable .amount { text-align: right; }
+#recordTable .amount p:first-of-type {font-size: 1.2em;}
+#recordTable .red { color: #ff0000; }
+#recordTable .blue { color: #0079ff; }
+#recordTable .balance { color: #838383; padding-top: 10px; }

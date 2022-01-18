@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#footerWrap {
+	padding: 30px; border-top: 1px solid #b50000; width: 98%; margin: 0 auto;
+	text-align: right; box-sizing: border-box;
+}
+#footerWrap address {margin-bottom: 10px; text-transform: uppercase;}
+#footerWrap small {font-size: 0.8em; color: #636363;}
+#footerWrap b {font-family: 'SBAggroB';}

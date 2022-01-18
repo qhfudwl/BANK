@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html {height: 100%;}
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, dd, figure, fieldset, input, th, td {margin: 0; padding: 0;}
+body, input, button {font-family: 'twayair';}
+input[type="text"] {text-indent: 5px;}
+input[type="submit"] {cursor: pointer;}
+li {list-style: none;}
+a {text-decoration: none; color: #000;}
+address, small, em, th {font: normal normal 1em 'twayair', sans-serif;}
+.hidden {position: absolute; left: -9999px;}
+.text_hidden {text-indent: -9999px;}
+fieldset, img {border: 0;}
+table {border-collapse: collapse;}

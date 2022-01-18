@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+section {
+	width: 100%; padding: 50px; box-sizing: border-box;
+	min-width: 600px;
+}
+section h2 { font-size: 7em; opacity: 0.1; }

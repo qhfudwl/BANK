@@ -1,0 +1,7 @@
+@charset "UTF-8";
+#userSnb { padding: 0 5px; }
+#userSnb ul { float: right; }
+#userSnb li { float: left; margin-right: 20px; }
+#userSnb li input { outline: none; border: 0; background-color: #fff; }
+#userSnb li input:hover { color: #b50000; text-decoration: underline; }
+#userSnb::after {content: ""; display: block; clear: both;}

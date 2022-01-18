@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 통장 개설 section */
+
+/* 통장 개설 form wrap div */
+#addAccWrap {
+	width: 100%; margin: 0 auto; padding: 30px; box-sizing: border-box;
+	min-width: 500px; max-width: 800px;
+}
+/* 통장 개설 table */
+#addAccTable {width: 100%;}
+#addAccTable th, td { height: 70px; }
+#addAccTable th { width: 20%; text-align: left; }
+#addAccTable td { text-indent: 10px; width: 70%; position: relative; }
+/* id */
+#addAccTable td em { font-size: 1.2em; font-weight: bold; color: #7AB53F; }
+/* 통장 선택 */
+#addAccTable .radioArea label { font-size: 0.9em; padding-right: 10px; }
+#addAccTable .radioArea input:checked + label { color: #6ca038; }
+/* 입력하는 것들 */
+#addAccTable .textArea input {
+	height: 70px; width: 90%; font-size: 1em; color: #000;
+	outline: none; border: 0; background-color: #fff; border-bottom: 1px solid #000;
+	box-sizing: border-box; text-align: right; padding-right: 10px;
+}
+#addAccTable .textArea input::placeholder { color: #8a8a8a; }
+#addAccTable .textArea input:focus { border-bottom: 2px solid #7AB53F; }
+#addAccTable #interest_rate { color: #c0c0c0; }
+/* 개설 버튼 */
+#addAccTable .submitArea { text-align: right; }
+#addAccBtn {
+	width: 150px; height: 40px; outline: none; border: 0;
+	background-color: #000; color: #fff;
+	font-size: 1.4em;
+}
+#addAccBtn:hover { background-color: #7AB53F; }
+/* errMsgs */
+#addAccTable td .addAccErr { 
+	color: #b50000; font-size: 0.8em; padding: 3px 0;
+	position: absolute; top: 10px; left: 0;
+ }
+
+
+
+
+

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* 입금 section */
+#afterDepositContent {
+	width: 100%; padding: 50px; box-sizing: border-box;
+	min-width: 600px;	
+}
+#afterDepositContent h2 { font-size: 5em; opacity: 0.1; } 
+
+/*입금 wrap div */
+#afterDepositWrap {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+	min-width: 500px; max-width: 800px;
+}
+
+#afterDepositForm {}
+
+/* 입금 table */
+#afterDepositTable {width: 100%;  border: 3px solid #7AB53F;}
+
+#afterDepositTable th, td{height: 90px;}
+#afterDepositTable > th{ width: 25%; text-align: center; }
+#afterDepositTable td{ text-align: right; margin-right: 30px; width:70%; position:relative; right: 40px; }
+/* 계좌 번호를 em으로 할까. 일단 테스트해보고.
+#depoisitTable td em { font-size: 1.2em; font-weight: bold; color: #7AB53F; }
+*/
+
+#afterDepositTable input::placeholder {color: #8a8a8a;}
+#afterDepositTable input:focus {border-bottom: 2px solid #7AB53F;}
+
+
+#afterDepositTable .okArea th, td {height: 80px;}
+
+#okButton {
+	
+	display:inline-block;
+	text-align: center;
+	width: 100px; height: 40px; outline: none; border: 0;
+	line-height: 40px;
+	background-color: #000; color: #fff;
+	font-size: 1.2em;
+	background-color: #000;
+	text-color: #fff;
+}
+#okButton:hover { background-color: #7AB53F; }
+
+
+ 
+
+

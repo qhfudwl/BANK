@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 내 통장 정보 */
+#transAccForm {
+	width: 550px; padding: 20px; margin: 0 auto;
+}
+#transAccInfo {
+	position: relative; font-size: 1.2em;
+	width: 100%; border-bottom: 2px solid #7AB53F; padding: 10px;
+}
+#transAccInfo input {
+	font-size: 1.2em; outline: none; border: 0; height: 50px;
+}
+#transAccInfo p { font-size: 0.9em; color: #808080; padding: 10px 0; }
+/* 입력란 */
+#contentInfoWrap { padding: 20px 10px; }
+#contentInfoWrap table { width: 100%; }
+#contentInfoWrap td { position: relative; height: 90px; font-size :1.3em; }
+#contentInfoWrap td .comment { position: absolute; top: 0; left: 0; color: #808080; font-size: 0.7em;}
+#contentInfoWrap td input[type="text"] { font-size :1em; height: 40px; outline: none; border: 1px solid #eee;}
+#contentInfoWrap td input[type="text"]:focus {background-color: #dcedcb;}
+#contentInfoWrap td input[type="submit"] {
+	height: 40px; font-size: 1em; outline: none; background-color: #eee; border: 0; width: 100px;
+}
+#contentInfoWrap td:nth-child(2) {
+	text-align: right;
+}
+#contentInfoWrap td input[name="transContent"] { color: #ff0000; }
+#contentInfoWrap td input[name="myContent"] { color: #0079ff; }
+#contentInfoWrap td .empty {color: #b50000;}
+#contentInfoWrap #transAmount {position: relative;}
+#contentInfoWrap #transAmount .errMsg {position: absolute; top: 0; right: 0; color: #b50000; font-size: 0.8em;}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#addCustomerOutputWrap {
+	width: 60%; margin: 0 auto; padding: 30px; box-sizing: border-box;
+	min-width: 500px; max-width: 800px; }
+h3{float:left; font-size: 2em; width: 1000px; height: 50px;}
+#addCustomerOutputTable {width: 100%;}
+#addCustomerOutputTable th, td { height: 70px; }
+#addCustomerOutputTable th { width: 30%; text-align: left; }
+#addCustomerOutputTable td { text-indent: 10px; width: 70%; text-align: right; }
+#addCustomerOutputTable td em { font-weight: bold; font-size: 1.1em; color: #7AB53F; }
